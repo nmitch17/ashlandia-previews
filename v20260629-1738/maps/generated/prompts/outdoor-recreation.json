@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "themeId": "outdoor-recreation",
+  "layerKey": "outdoor_recreation",
+  "model": {
+    "preferred": "gpt-image-2",
+    "transparentBackground": false,
+    "imageInputFidelity": "high",
+    "proofSize": {
+      "width": 1920,
+      "height": 1407
+    },
+    "masterSize": {
+      "width": 7200,
+      "height": 5276
+    },
+    "tileMode": {
+      "enabled": true,
+      "tileWidth": 1920,
+      "tileHeight": 1407,
+      "overlap": 128
+    }
+  },
+  "controls": {
+    "baseControl": {
+      "id": "base-control",
+      "svg": "/maps/control/base-control.svg",
+      "png": "/maps/control/base-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "#f5f1e7",
+      "hash": "a2b53885028a1993ac54d4eb70c23670ece780dfea697d8a5debd0f770104bdf"
+    },
+    "roadsControl": {
+      "id": "roads-control",
+      "svg": "/maps/control/roads-control.svg",
+      "png": "/maps/control/roads-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "90b8d45bf03872e832525beb54e530ea25a4cce2ddda411bde03e1281102045c"
+    },
+    "maskControl": {
+      "id": "outdoor-recreation-mask",
+      "svg": "/maps/control/outdoor-recreation-mask.svg",
+      "png": "/maps/control/outdoor-recreation-mask.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "21e40bfe3b511a997b7dde75a02b0b6f48da2c5a930f0ec2e8216c6de958c6ee"
+    }
+  },
+  "preservationRules": [
+    "street geometry is locked",
+    "POI coordinates are locked",
+    "theme masks are locked",
+    "labels and icons remain vector-controlled",
+    "transparent overlays are created with post-processing masks"
+  ],
+  "forbiddenOperations": [
+    "invent POIs",
+    "move roads or trails",
+    "invent waterways or hydrology",
+    "create readable map labels",
+    "change the canvas aspect ratio",
+    "request transparent GPT Image 2 output"
+  ],
+  "prompt": "Create an opaque stylized art layer for the Outdoor And Recreation Ashland visitor map. Outdoor recreation layer with moss-green terrain texture, park and trail emphasis, subtle hillshade feel, and accurate park/trailhead anchors. Do not create waterways, creek lines, pond shapes, lake shapes, or blue hydrology marks unless a verified hydrology control layer is supplied. Use the supplied control map as a strict registration reference. Do not move streets, trails, parks, POI anchors, map bounds, north orientation, or topography. Do not invent water, waterways, creeks, rivers, ponds, lakes, drainage channels, blue linear features, or hydrology marks unless a verified hydrology control layer is supplied. Do not render final readable labels, street names, business names, callout numbers, or attribution text. Keep the result geographically restrained: visitor-guide quality, whimsical and textured, but not cartoonish. The generated image will be composited under vector labels, POI anchors, and animation paths.",
+  "promptHash": "c5e9750a0e94ef5cc6b36849795b05e5c72bbd5ad3f69fa901fb8b69eec69ff0"
+}

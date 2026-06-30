@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "generatedAt": "2026-06-26T19:46:18.688Z",
+  "errors": [],
+  "warnings": [
+    "Authored landmark ashland-springs-hotel is needs-review; keep it out of public composition until reviewed",
+    "Supplemental rail feature central-oregon-pacific-ashland-corridor is needs-review; rendered only in debug plates"
+  ],
+  "manualQa": [
+    "Spot-check at least 20 street intersections against City/Jackson County sources.",
+    "Move street, district, and landmark corrections through data/map/authoring/*.json before generating stylized artwork.",
+    "Spot-check every keystone POI against its official source and map position.",
+    "Review rail-trail-debug.png before promoting any supplemental rail or water geometry to public-ready.",
+    "Review generated art for street drift, invented symbols, and tile seams.",
+    "Review every real-world landmark sprite against its source URL before public use.",
+    "Confirm landmark sprites contain no roads, waterways, readable labels, logos, vehicles, crowds, or invented adjacent buildings.",
+    "Review label collisions at desktop and mobile display sizes.",
+    "Confirm public attribution is visible beside every published static map."
+  ]
+}

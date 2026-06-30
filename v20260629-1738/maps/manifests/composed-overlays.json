@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-06-24T23:15:38.665Z",
+  "canvas": {
+    "width": 1920,
+    "height": 1407
+  },
+  "assets": [
+    {
+      "themeId": "history",
+      "output": "/maps/overlays/history-overlay.png",
+      "width": 1920,
+      "height": 1407,
+      "source": "generated-proof",
+      "mask": "/maps/control/history-mask.png",
+      "hash": "7ce082efe21f40cec8e9c65e0c7e395d3946a7710122a9f09dd3978b69687649"
+    },
+    {
+      "themeId": "kids-family",
+      "output": "/maps/overlays/kids-family-overlay.png",
+      "width": 1920,
+      "height": 1407,
+      "source": "generated-proof",
+      "mask": "/maps/control/kids-family-mask.png",
+      "hash": "d4837d8a2b40303216ea7eb4bab7a39caa5f7b6ba5c2b4e419b58502a019dd4f"
+    },
+    {
+      "themeId": "outdoor-recreation",
+      "output": "/maps/overlays/outdoor-recreation-overlay.png",
+      "width": 1920,
+      "height": 1407,
+      "source": "generated-proof",
+      "mask": "/maps/control/outdoor-recreation-mask.png",
+      "hash": "95111f33a6e73dc5444ca75f03689194ab6689e64c29ea18c25ee92ef00b08e0"
+    },
+    {
+      "themeId": "theaters",
+      "output": "/maps/overlays/theaters-overlay.png",
+      "width": 1920,
+      "height": 1407,
+      "source": "generated-proof",
+      "mask": "/maps/control/theaters-mask.png",
+      "hash": "f37e3a1e04e278a919f2dc09a997ee4a9761c56d354c228f8225bde72da5f25d"
+    },
+    {
+      "themeId": "real-world",
+      "layerType": "real-world",
+      "output": "/maps/overlays/real-world-overlay.png",
+      "width": 1920,
+      "height": 1407,
+      "source": "landmark-sprites",
+      "spriteManifest": "/maps/manifests/real-world-landmarks.json",
+      "spriteCount": 15,
+      "transparent": true,
+      "hash": "4023044e9cb39c03971a5681765b5163cdaaffb808053d0f61f994382cdffc7c"
+    }
+  ]
+}
