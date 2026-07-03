@@ -1,0 +1,53 @@
+{
+  "status": "ready",
+  "generatedAt": "2026-06-24T23:15:31.928Z",
+  "workflow": "manual-chat-image-generation",
+  "assets": [
+    {
+      "themeId": "history",
+      "expectedPath": "/maps/generated/proofs/history-proof.png",
+      "expectedWidth": 1920,
+      "expectedHeight": 1407,
+      "status": "ready",
+      "width": 1920,
+      "height": 1407,
+      "note": "Uploaded chat-generated proof is registered for composition."
+    },
+    {
+      "themeId": "kids-family",
+      "expectedPath": "/maps/generated/proofs/kids-family-proof.png",
+      "expectedWidth": 1920,
+      "expectedHeight": 1407,
+      "status": "ready",
+      "width": 1920,
+      "height": 1407,
+      "note": "Uploaded chat-generated proof is registered for composition."
+    },
+    {
+      "themeId": "outdoor-recreation",
+      "expectedPath": "/maps/generated/proofs/outdoor-recreation-proof.png",
+      "expectedWidth": 1920,
+      "expectedHeight": 1407,
+      "status": "ready",
+      "width": 1920,
+      "height": 1407,
+      "note": "Uploaded chat-generated proof is registered for composition."
+    },
+    {
+      "themeId": "theaters",
+      "expectedPath": "/maps/generated/proofs/theaters-proof.png",
+      "expectedWidth": 1920,
+      "expectedHeight": 1407,
+      "status": "ready",
+      "width": 1920,
+      "height": 1407,
+      "note": "Uploaded chat-generated proof is registered for composition."
+    }
+  ],
+  "landmarkSprites": {
+    "status": "ready",
+    "readyCount": 15,
+    "missingCount": 0,
+    "manifest": "/maps/manifests/real-world-landmarks.json"
+  }
+}
