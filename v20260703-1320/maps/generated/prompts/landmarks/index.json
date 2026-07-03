@@ -1,0 +1,172 @@
+{
+  "generatedAt": "2026-06-24T23:15:24.592Z",
+  "workflow": "manual-chat-landmark-sprite-generation",
+  "firstProofLandmarkIds": [
+    "osf-campus",
+    "oregon-cabaret",
+    "lithia-park",
+    "ashland-plaza",
+    "sou-campus"
+  ],
+  "stretchProofLandmarkIds": [
+    "varsity-theatre",
+    "scienceworks",
+    "ashland-library",
+    "north-mountain-park"
+  ],
+  "promptPacks": [
+    {
+      "landmarkId": "osf-campus",
+      "json": "/maps/generated/prompts/landmarks/osf-campus.json",
+      "markdown": "/maps/generated/prompts/landmarks/osf-campus.md",
+      "promptHash": "f7db0b126092a82690471c6492cb2f2bef3cd303f8822ce1197f730bfffef375",
+      "firstProof": true,
+      "stretchProof": false,
+      "publicCompositionEligible": true
+    },
+    {
+      "landmarkId": "oregon-cabaret",
+      "json": "/maps/generated/prompts/landmarks/oregon-cabaret.json",
+      "markdown": "/maps/generated/prompts/landmarks/oregon-cabaret.md",
+      "promptHash": "110b2229132b4636ce5c4a1040d04d7a0e7932db39c135568be4f5535c8e7a63",
+      "firstProof": true,
+      "stretchProof": false,
+      "publicCompositionEligible": true
+    },
+    {
+      "landmarkId": "varsity-theatre",
+      "json": "/maps/generated/prompts/landmarks/varsity-theatre.json",
+      "markdown": "/maps/generated/prompts/landmarks/varsity-theatre.md",
+      "promptHash": "4db5767f40d9b4defec9f0c3bde654a578470502f66816a79885f2588db0f7c2",
+      "firstProof": false,
+      "stretchProof": true,
+      "publicCompositionEligible": true
+    },
+    {
+      "landmarkId": "lithia-park",
+      "json": "/maps/generated/prompts/landmarks/lithia-park.json",
+      "markdown": "/maps/generated/prompts/landmarks/lithia-park.md",
+      "promptHash": "5cd1b25eacbc6a1cb1a319ed897106f8628361fa934985daf8a29929298457d6",
+      "firstProof": true,
+      "stretchProof": false,
+      "publicCompositionEligible": true
+    },
+    {
+      "landmarkId": "ashland-plaza",
+      "json": "/maps/generated/prompts/landmarks/ashland-plaza.json",
+      "markdown": "/maps/generated/prompts/landmarks/ashland-plaza.md",
+      "promptHash": "9a937149d0f1659b15b2d61f57c27d5b5e2d0cd9dfcd168e76f5e619ea34fd63",
+      "firstProof": true,
+      "stretchProof": false,
+      "publicCompositionEligible": true
+    },
+    {
+      "landmarkId": "sou-campus",
+      "json": "/maps/generated/prompts/landmarks/sou-campus.json",
+      "markdown": "/maps/generated/prompts/landmarks/sou-campus.md",
+      "promptHash": "2e9e29a0695bd8c7d0498eded722742e78f3c267ca23680e228d5126e6de50d8",
+      "firstProof": true,
+      "stretchProof": false,
+      "publicCompositionEligible": true
+    },
+    {
+      "landmarkId": "schneider-museum",
+      "json": "/maps/generated/prompts/landmarks/schneider-museum.json",
+      "markdown": "/maps/generated/prompts/landmarks/schneider-museum.md",
+      "promptHash": "fc1c27544e96063f54a88aafb528266eb7d4f989c0ca3409b77707c35e47941a",
+      "firstProof": false,
+      "stretchProof": false,
+      "publicCompositionEligible": true
+    },
+    {
+      "landmarkId": "scienceworks",
+      "json": "/maps/generated/prompts/landmarks/scienceworks.json",
+      "markdown": "/maps/generated/prompts/landmarks/scienceworks.md",
+      "promptHash": "081c799fcb13b3cbdf475d9871b5f436a850143dc067c7591c872a5895a82bcf",
+      "firstProof": false,
+      "stretchProof": true,
+      "publicCompositionEligible": true
+    },
+    {
+      "landmarkId": "ashland-library",
+      "json": "/maps/generated/prompts/landmarks/ashland-library.json",
+      "markdown": "/maps/generated/prompts/landmarks/ashland-library.md",
+      "promptHash": "f077a7d99f7b959e0f6683c282bc18120d636257ccacca1b5e414304151b2074",
+      "firstProof": false,
+      "stretchProof": true,
+      "publicCompositionEligible": true
+    },
+    {
+      "landmarkId": "north-mountain-park",
+      "json": "/maps/generated/prompts/landmarks/north-mountain-park.json",
+      "markdown": "/maps/generated/prompts/landmarks/north-mountain-park.md",
+      "promptHash": "2f1014892d10e767fdf6b768d03ac6941c7025b66b6dc0424c35b3458f4fb3f7",
+      "firstProof": false,
+      "stretchProof": true,
+      "publicCompositionEligible": true
+    },
+    {
+      "landmarkId": "railroad-district",
+      "json": "/maps/generated/prompts/landmarks/railroad-district.json",
+      "markdown": "/maps/generated/prompts/landmarks/railroad-district.md",
+      "promptHash": "c4be5e0e955b00df61ce26b05dbcda1a7f430d0bba5c12db72faa27d86fc23bf",
+      "firstProof": false,
+      "stretchProof": false,
+      "publicCompositionEligible": true
+    },
+    {
+      "landmarkId": "railroad-park",
+      "json": "/maps/generated/prompts/landmarks/railroad-park.json",
+      "markdown": "/maps/generated/prompts/landmarks/railroad-park.md",
+      "promptHash": "8fdf512f025704f7f020b68bd4eb47e3e85997a86f1c72ac3955847da8722226",
+      "firstProof": false,
+      "stretchProof": false,
+      "publicCompositionEligible": true
+    },
+    {
+      "landmarkId": "ashland-dog-park",
+      "json": "/maps/generated/prompts/landmarks/ashland-dog-park.json",
+      "markdown": "/maps/generated/prompts/landmarks/ashland-dog-park.md",
+      "promptHash": "7290073936439a13f4d5a3f66421db85e069ac1a3e3b8b19c63c36e0adea3f03",
+      "firstProof": false,
+      "stretchProof": false,
+      "publicCompositionEligible": true
+    },
+    {
+      "landmarkId": "butler-perozzi-fountain",
+      "json": "/maps/generated/prompts/landmarks/butler-perozzi-fountain.json",
+      "markdown": "/maps/generated/prompts/landmarks/butler-perozzi-fountain.md",
+      "promptHash": "8dbff850aa8efde1c75315561d5c0658623044a0965245e9c0512d30816a5a11",
+      "firstProof": false,
+      "stretchProof": false,
+      "publicCompositionEligible": false
+    },
+    {
+      "landmarkId": "japanese-garden",
+      "json": "/maps/generated/prompts/landmarks/japanese-garden.json",
+      "markdown": "/maps/generated/prompts/landmarks/japanese-garden.md",
+      "promptHash": "fc275632e1c9c584471847ab2a4fb73039a13ecc93845982d204b716bf66f310",
+      "firstProof": false,
+      "stretchProof": false,
+      "publicCompositionEligible": true
+    },
+    {
+      "landmarkId": "ashland-welcome-center",
+      "json": "/maps/generated/prompts/landmarks/ashland-welcome-center.json",
+      "markdown": "/maps/generated/prompts/landmarks/ashland-welcome-center.md",
+      "promptHash": "c89ce5532bfb5f89350bd50033daa4563f12c992afe3c1d12bac1727656332e2",
+      "firstProof": false,
+      "stretchProof": false,
+      "publicCompositionEligible": true
+    },
+    {
+      "landmarkId": "oredson-todd-trailhead",
+      "json": "/maps/generated/prompts/landmarks/oredson-todd-trailhead.json",
+      "markdown": "/maps/generated/prompts/landmarks/oredson-todd-trailhead.md",
+      "promptHash": "815e153cd2f90b1b142a87024f5a2da3c34cab58ada9b0ae7c79067a784eb203",
+      "firstProof": false,
+      "stretchProof": false,
+      "publicCompositionEligible": false
+    }
+  ]
+}
