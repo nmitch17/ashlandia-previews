@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "landmarkId": "oregon-cabaret",
+  "name": "Oregon Cabaret Theatre",
+  "tier": 1,
+  "representationConfidence": "exact",
+  "depictionType": "historic building miniature",
+  "status": "ready",
+  "firstProof": true,
+  "stretchProof": false,
+  "source": {
+    "primary": "https://oregoncabaret.com/about-us/history/",
+    "secondary": "https://hearsayashland.com/about-hearsay/about-the-building/",
+    "rowHash": "7660426b3e15feadee4072e81bd61b414c81752c5f5b31c4d6f94fd4ef8fb0c9"
+  },
+  "policy": {
+    "promptMode": "exact-sprite",
+    "publicCompositionEligible": true,
+    "note": "Exact depiction is allowed only for the listed source-backed visual cue."
+  },
+  "sprite": {
+    "expectedPath": "/maps/generated/landmarks/oregon-cabaret.png",
+    "targetDisplayBox": {
+      "x": 521.93,
+      "y": 643.7,
+      "width": 72,
+      "height": 56,
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    "proofCanvas": {
+      "width": 1920,
+      "height": 1407
+    }
+  },
+  "anchor": {
+    "id": "oregon-cabaret",
+    "name": "Oregon Cabaret Theatre",
+    "tier": 1,
+    "status": "ready",
+    "representationConfidence": "exact",
+    "publicReady": true,
+    "promptEligible": true,
+    "firstProof": true,
+    "stretchProof": false,
+    "poiId": "oregon-cabaret",
+    "anchor": {
+      "lon": -122.71164,
+      "lat": 42.19333,
+      "x": 557.93,
+      "y": 671.7
+    },
+    "spriteBox": {
+      "x": 521.93,
+      "y": 643.7,
+      "width": 72,
+      "height": 56,
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    "sourceRowHash": "7660426b3e15feadee4072e81bd61b414c81752c5f5b31c4d6f94fd4ef8fb0c9",
+    "sourcePrimaryUrl": "https://oregoncabaret.com/about-us/history/",
+    "expectedSpritePath": "/maps/generated/landmarks/oregon-cabaret.png"
+  },
+  "controls": {
+    "baseControl": {
+      "id": "base-control",
+      "svg": "/maps/control/base-control.svg",
+      "png": "/maps/control/base-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "#f5f1e7",
+      "hash": "a2b53885028a1993ac54d4eb70c23670ece780dfea697d8a5debd0f770104bdf"
+    },
+    "roadsControl": {
+      "id": "roads-control",
+      "svg": "/maps/control/roads-control.svg",
+      "png": "/maps/control/roads-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "90b8d45bf03872e832525beb54e530ea25a4cce2ddda411bde03e1281102045c"
+    },
+    "anchorControl": {
+      "id": "real-world-anchors-control",
+      "svg": "/maps/control/real-world-anchors-control.svg",
+      "png": "/maps/control/real-world-anchors-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "115b022656cdb5b592eff6e8ec3abb8e32d127fe59c7c37cf4fe921cc768f5be"
+    }
+  },
+  "forbiddenOperations": [
+    "draw roads, streets, trails, bridges, or paths",
+    "draw water, waterways, creek lines, ponds, lakes, or blue hydrology marks",
+    "draw readable labels, business names, street names, logos, plaques, or signs",
+    "copy a source photo composition",
+    "invent adjacent buildings, crowds, vehicles, mascots, banners, or animals",
+    "change the map canvas, orientation, or landmark anchor"
+  ],
+  "qaChecklist": [
+    "Primary source URL reviewed for the visual cue.",
+    "Sprite has transparent background and only a tiny grounding shadow.",
+    "No readable text, logo, mascot, vehicle, crowd, road, or water appears in the sprite.",
+    "Exact rows depict only source-backed cues; typology rows remain generic.",
+    "Sprite still reads at the target proof display size."
+  ],
+  "prompt": "Create a single realistic miniature visitor-map landmark sprite for Oregon Cabaret Theatre. Style: restrained hand-painted gouache and fine ink, muted Ashland visitor-map palette, warm paper-compatible colors, realistic simplified proportions, not cartoonish. Subject: historic First Baptist Church / Old Pink Church built in 1911. Allowed visual cues: gabled church form; arched windows; subtle rose/pink masonry; warm cabaret glow. Forbidden visual cues: over-saturated pink cartoon church; readable signs; invented steeple height. Exact depiction is allowed only for the listed source-backed visual cue. Output intent: transparent sprite to be placed on a factual GIS map. No background scenery beyond a tiny grounding shadow. No readable text, no logos, no people, no vehicles, no mascots, no invented adjacent buildings, no roads, no water, no labels, no map pins. Accuracy constraints: use only the listed sourceable architectural or place cues. If unsure, simplify to a generic typology cue rather than inventing details.",
+  "promptHash": "110b2229132b4636ce5c4a1040d04d7a0e7932db39c135568be4f5535c8e7a63"
+}
