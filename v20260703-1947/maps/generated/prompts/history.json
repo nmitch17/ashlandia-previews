@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "themeId": "history",
+  "layerKey": "history",
+  "model": {
+    "preferred": "gpt-image-2",
+    "transparentBackground": false,
+    "imageInputFidelity": "high",
+    "proofSize": {
+      "width": 1920,
+      "height": 1407
+    },
+    "masterSize": {
+      "width": 7200,
+      "height": 5276
+    },
+    "tileMode": {
+      "enabled": true,
+      "tileWidth": 1920,
+      "tileHeight": 1407,
+      "overlap": 128
+    }
+  },
+  "controls": {
+    "baseControl": {
+      "id": "base-control",
+      "svg": "/maps/control/base-control.svg",
+      "png": "/maps/control/base-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "#f5f1e7",
+      "hash": "a2b53885028a1993ac54d4eb70c23670ece780dfea697d8a5debd0f770104bdf"
+    },
+    "roadsControl": {
+      "id": "roads-control",
+      "svg": "/maps/control/roads-control.svg",
+      "png": "/maps/control/roads-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "90b8d45bf03872e832525beb54e530ea25a4cce2ddda411bde03e1281102045c"
+    },
+    "maskControl": {
+      "id": "history-mask",
+      "svg": "/maps/control/history-mask.svg",
+      "png": "/maps/control/history-mask.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "96e3a13afa665a9dee32364f73df5c9da9afc12ee9ad5774a39d281a050ffefb"
+    }
+  },
+  "preservationRules": [
+    "street geometry is locked",
+    "POI coordinates are locked",
+    "theme masks are locked",
+    "labels and icons remain vector-controlled",
+    "transparent overlays are created with post-processing masks"
+  ],
+  "forbiddenOperations": [
+    "invent POIs",
+    "move roads or trails",
+    "invent waterways or hydrology",
+    "create readable map labels",
+    "change the canvas aspect ratio",
+    "request transparent GPT Image 2 output"
+  ],
+  "prompt": "Create an opaque stylized art layer for the History Ashland visitor map. Historic walking layer with brass and black accents, archival texture, district emphasis, and factual heritage anchors. Use the supplied control map as a strict registration reference. Do not move streets, trails, parks, POI anchors, map bounds, north orientation, or topography. Do not invent water, waterways, creeks, rivers, ponds, lakes, drainage channels, blue linear features, or hydrology marks unless a verified hydrology control layer is supplied. Do not render final readable labels, street names, business names, callout numbers, or attribution text. Keep the result geographically restrained: visitor-guide quality, whimsical and textured, but not cartoonish. The generated image will be composited under vector labels, POI anchors, and animation paths.",
+  "promptHash": "53317861183e32e57a550bb22931464a98101385f278b085ecba937b9e22edc6"
+}
