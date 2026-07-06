@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "landmarkId": "scienceworks",
+  "name": "ScienceWorks Hands-On Museum",
+  "tier": 2,
+  "representationConfidence": "typology",
+  "depictionType": "museum/activity vignette",
+  "status": "ready",
+  "firstProof": false,
+  "stretchProof": true,
+  "source": {
+    "primary": "https://www.scienceworksmuseum.org/",
+    "secondary": "https://www.scienceworksmuseum.org/visit",
+    "rowHash": "9ccdb892cae490498313c4ab2f9bcf638f15bd82657c7b1ce5ba27e3174a327f"
+  },
+  "policy": {
+    "promptMode": "typology-sprite",
+    "publicCompositionEligible": true,
+    "note": "Use a generic typology cue; do not imply exact architecture."
+  },
+  "sprite": {
+    "expectedPath": "/maps/generated/landmarks/scienceworks.png",
+    "targetDisplayBox": {
+      "x": 974.41,
+      "y": 669.98,
+      "width": 58,
+      "height": 42,
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    "proofCanvas": {
+      "width": 1920,
+      "height": 1407
+    }
+  },
+  "anchor": {
+    "id": "scienceworks",
+    "name": "ScienceWorks Hands-On Museum",
+    "tier": 2,
+    "status": "ready",
+    "representationConfidence": "typology",
+    "publicReady": true,
+    "promptEligible": true,
+    "firstProof": false,
+    "stretchProof": true,
+    "poiId": "scienceworks",
+    "anchor": {
+      "lon": -122.69025,
+      "lat": 42.19306,
+      "x": 1003.41,
+      "y": 690.98
+    },
+    "spriteBox": {
+      "x": 974.41,
+      "y": 669.98,
+      "width": 58,
+      "height": 42,
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    "sourceRowHash": "9ccdb892cae490498313c4ab2f9bcf638f15bd82657c7b1ce5ba27e3174a327f",
+    "sourcePrimaryUrl": "https://www.scienceworksmuseum.org/",
+    "expectedSpritePath": "/maps/generated/landmarks/scienceworks.png"
+  },
+  "controls": {
+    "baseControl": {
+      "id": "base-control",
+      "svg": "/maps/control/base-control.svg",
+      "png": "/maps/control/base-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "#f5f1e7",
+      "hash": "a2b53885028a1993ac54d4eb70c23670ece780dfea697d8a5debd0f770104bdf"
+    },
+    "roadsControl": {
+      "id": "roads-control",
+      "svg": "/maps/control/roads-control.svg",
+      "png": "/maps/control/roads-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "90b8d45bf03872e832525beb54e530ea25a4cce2ddda411bde03e1281102045c"
+    },
+    "anchorControl": {
+      "id": "real-world-anchors-control",
+      "svg": "/maps/control/real-world-anchors-control.svg",
+      "png": "/maps/control/real-world-anchors-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "115b022656cdb5b592eff6e8ec3abb8e32d127fe59c7c37cf4fe921cc768f5be"
+    }
+  },
+  "forbiddenOperations": [
+    "draw roads, streets, trails, bridges, or paths",
+    "draw water, waterways, creek lines, ponds, lakes, or blue hydrology marks",
+    "draw readable labels, business names, street names, logos, plaques, or signs",
+    "copy a source photo composition",
+    "invent adjacent buildings, crowds, vehicles, mascots, banners, or animals",
+    "change the map canvas, orientation, or landmark anchor"
+  ],
+  "qaChecklist": [
+    "Primary source URL reviewed for the visual cue.",
+    "Sprite has transparent background and only a tiny grounding shadow.",
+    "No readable text, logo, mascot, vehicle, crowd, road, or water appears in the sprite.",
+    "Exact rows depict only source-backed cues; typology rows remain generic.",
+    "Sprite still reads at the target proof display size."
+  ],
+  "prompt": "Create a single realistic miniature visitor-map landmark sprite for ScienceWorks Hands-On Museum. Style: restrained hand-painted gouache and fine ink, muted Ashland visitor-map palette, warm paper-compatible colors, realistic simplified proportions, not cartoonish. Subject: hands-on science / STEAM museum. Allowed visual cues: low museum building; subtle kinetic exhibit shapes; science-play cue. Forbidden visual cues: cartoon rocket; giant atoms; fake mascots; readable labels. Use a generic typology cue; do not imply exact architecture. Output intent: transparent sprite to be placed on a factual GIS map. No background scenery beyond a tiny grounding shadow. No readable text, no logos, no people, no vehicles, no mascots, no invented adjacent buildings, no roads, no water, no labels, no map pins. Accuracy constraints: use only the listed sourceable architectural or place cues. If unsure, simplify to a generic typology cue rather than inventing details.",
+  "promptHash": "081c799fcb13b3cbdf475d9871b5f436a850143dc067c7591c872a5895a82bcf"
+}

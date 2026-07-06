@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "landmarkId": "sou-campus",
+  "name": "Southern Oregon University",
+  "tier": 1,
+  "representationConfidence": "typology",
+  "depictionType": "campus vignette",
+  "status": "ready",
+  "firstProof": true,
+  "stretchProof": false,
+  "source": {
+    "primary": "https://sou.edu/",
+    "secondary": "https://sou.edu/admissions/visit/",
+    "rowHash": "3c7d306db9e38987d3f77b45eae4cb8d20e4592d28204e33995474bf4e0335a1"
+  },
+  "policy": {
+    "promptMode": "typology-sprite",
+    "publicCompositionEligible": true,
+    "note": "Use a generic typology cue; do not imply exact architecture."
+  },
+  "sprite": {
+    "expectedPath": "/maps/generated/landmarks/sou-campus.png",
+    "targetDisplayBox": {
+      "x": 864.42,
+      "y": 835.5,
+      "width": 78,
+      "height": 54,
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    "proofCanvas": {
+      "width": 1920,
+      "height": 1407
+    }
+  },
+  "anchor": {
+    "id": "sou-campus",
+    "name": "Southern Oregon University",
+    "tier": 1,
+    "status": "ready",
+    "representationConfidence": "typology",
+    "publicReady": true,
+    "promptEligible": true,
+    "firstProof": true,
+    "stretchProof": false,
+    "poiId": "sou-campus",
+    "anchor": {
+      "lon": -122.69483,
+      "lat": 42.18685,
+      "x": 903.42,
+      "y": 862.5
+    },
+    "spriteBox": {
+      "x": 864.42,
+      "y": 835.5,
+      "width": 78,
+      "height": 54,
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    "sourceRowHash": "3c7d306db9e38987d3f77b45eae4cb8d20e4592d28204e33995474bf4e0335a1",
+    "sourcePrimaryUrl": "https://sou.edu/",
+    "expectedSpritePath": "/maps/generated/landmarks/sou-campus.png"
+  },
+  "controls": {
+    "baseControl": {
+      "id": "base-control",
+      "svg": "/maps/control/base-control.svg",
+      "png": "/maps/control/base-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "#f5f1e7",
+      "hash": "a2b53885028a1993ac54d4eb70c23670ece780dfea697d8a5debd0f770104bdf"
+    },
+    "roadsControl": {
+      "id": "roads-control",
+      "svg": "/maps/control/roads-control.svg",
+      "png": "/maps/control/roads-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "90b8d45bf03872e832525beb54e530ea25a4cce2ddda411bde03e1281102045c"
+    },
+    "anchorControl": {
+      "id": "real-world-anchors-control",
+      "svg": "/maps/control/real-world-anchors-control.svg",
+      "png": "/maps/control/real-world-anchors-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "115b022656cdb5b592eff6e8ec3abb8e32d127fe59c7c37cf4fe921cc768f5be"
+    }
+  },
+  "forbiddenOperations": [
+    "draw roads, streets, trails, bridges, or paths",
+    "draw water, waterways, creek lines, ponds, lakes, or blue hydrology marks",
+    "draw readable labels, business names, street names, logos, plaques, or signs",
+    "copy a source photo composition",
+    "invent adjacent buildings, crowds, vehicles, mascots, banners, or animals",
+    "change the map canvas, orientation, or landmark anchor"
+  ],
+  "qaChecklist": [
+    "Primary source URL reviewed for the visual cue.",
+    "Sprite has transparent background and only a tiny grounding shadow.",
+    "No readable text, logo, mascot, vehicle, crowd, road, or water appears in the sprite.",
+    "Exact rows depict only source-backed cues; typology rows remain generic.",
+    "Sprite still reads at the target proof display size."
+  ],
+  "prompt": "Create a single realistic miniature visitor-map landmark sprite for Southern Oregon University. Style: restrained hand-painted gouache and fine ink, muted Ashland visitor-map palette, warm paper-compatible colors, realistic simplified proportions, not cartoonish. Subject: SOU campus / academic buildings and student union context. Allowed visual cues: academic building massing; campus green; red/black accent if subtle. Forbidden visual cues: Raider logo without approval; mascot; fake tower; sports branding. Use a generic typology cue; do not imply exact architecture. Output intent: transparent sprite to be placed on a factual GIS map. No background scenery beyond a tiny grounding shadow. No readable text, no logos, no people, no vehicles, no mascots, no invented adjacent buildings, no roads, no water, no labels, no map pins. Accuracy constraints: use only the listed sourceable architectural or place cues. If unsure, simplify to a generic typology cue rather than inventing details.",
+  "promptHash": "2e9e29a0695bd8c7d0498eded722742e78f3c267ca23680e228d5126e6de50d8"
+}
