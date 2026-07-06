@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "landmarkId": "osf-campus",
+  "name": "Oregon Shakespeare Festival",
+  "tier": 1,
+  "representationConfidence": "exact",
+  "depictionType": "theater campus vignette",
+  "status": "ready",
+  "firstProof": true,
+  "stretchProof": false,
+  "source": {
+    "primary": "https://www.osfashland.org/tickets-and-calendar/venues-and-seating.aspx",
+    "secondary": "https://www.osfashland.org/",
+    "rowHash": "1796e454b3f4661caf6e38af7142fc873cad5eea40a32123610a8cc1eef1c6ca"
+  },
+  "policy": {
+    "promptMode": "exact-sprite",
+    "publicCompositionEligible": true,
+    "note": "Exact depiction is allowed only for the listed source-backed visual cue."
+  },
+  "sprite": {
+    "expectedPath": "/maps/generated/landmarks/osf-campus.png",
+    "targetDisplayBox": {
+      "x": 461.21,
+      "y": 611.91,
+      "width": 82,
+      "height": 60,
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    "proofCanvas": {
+      "width": 1920,
+      "height": 1407
+    }
+  },
+  "anchor": {
+    "id": "osf-campus",
+    "name": "Oregon Shakespeare Festival",
+    "tier": 1,
+    "status": "ready",
+    "representationConfidence": "exact",
+    "publicReady": true,
+    "promptEligible": true,
+    "firstProof": true,
+    "stretchProof": false,
+    "poiId": "osf-campus",
+    "anchor": {
+      "lon": -122.71435,
+      "lat": 42.19434,
+      "x": 502.21,
+      "y": 641.91
+    },
+    "spriteBox": {
+      "x": 461.21,
+      "y": 611.91,
+      "width": 82,
+      "height": 60,
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    "sourceRowHash": "1796e454b3f4661caf6e38af7142fc873cad5eea40a32123610a8cc1eef1c6ca",
+    "sourcePrimaryUrl": "https://www.osfashland.org/tickets-and-calendar/venues-and-seating.aspx",
+    "expectedSpritePath": "/maps/generated/landmarks/osf-campus.png"
+  },
+  "controls": {
+    "baseControl": {
+      "id": "base-control",
+      "svg": "/maps/control/base-control.svg",
+      "png": "/maps/control/base-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "#f5f1e7",
+      "hash": "a2b53885028a1993ac54d4eb70c23670ece780dfea697d8a5debd0f770104bdf"
+    },
+    "roadsControl": {
+      "id": "roads-control",
+      "svg": "/maps/control/roads-control.svg",
+      "png": "/maps/control/roads-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "90b8d45bf03872e832525beb54e530ea25a4cce2ddda411bde03e1281102045c"
+    },
+    "anchorControl": {
+      "id": "real-world-anchors-control",
+      "svg": "/maps/control/real-world-anchors-control.svg",
+      "png": "/maps/control/real-world-anchors-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "115b022656cdb5b592eff6e8ec3abb8e32d127fe59c7c37cf4fe921cc768f5be"
+    }
+  },
+  "forbiddenOperations": [
+    "draw roads, streets, trails, bridges, or paths",
+    "draw water, waterways, creek lines, ponds, lakes, or blue hydrology marks",
+    "draw readable labels, business names, street names, logos, plaques, or signs",
+    "copy a source photo composition",
+    "invent adjacent buildings, crowds, vehicles, mascots, banners, or animals",
+    "change the map canvas, orientation, or landmark anchor"
+  ],
+  "qaChecklist": [
+    "Primary source URL reviewed for the visual cue.",
+    "Sprite has transparent background and only a tiny grounding shadow.",
+    "No readable text, logo, mascot, vehicle, crowd, road, or water appears in the sprite.",
+    "Exact rows depict only source-backed cues; typology rows remain generic.",
+    "Sprite still reads at the target proof display size."
+  ],
+  "prompt": "Create a single realistic miniature visitor-map landmark sprite for Oregon Shakespeare Festival. Style: restrained hand-painted gouache and fine ink, muted Ashland visitor-map palette, warm paper-compatible colors, realistic simplified proportions, not cartoonish. Subject: three-theatre OSF campus: Angus Bowmer Theatre, Thomas Theatre, Allen Elizabethan Theatre. Allowed visual cues: restrained theatre-campus massing; outdoor Elizabethan stage/courtyard cue; warm stage lighting. Forbidden visual cues: castle fantasy; Shakespeare caricatures; invented signage; readable show titles. Exact depiction is allowed only for the listed source-backed visual cue. Output intent: transparent sprite to be placed on a factual GIS map. No background scenery beyond a tiny grounding shadow. No readable text, no logos, no people, no vehicles, no mascots, no invented adjacent buildings, no roads, no water, no labels, no map pins. Accuracy constraints: use only the listed sourceable architectural or place cues. If unsure, simplify to a generic typology cue rather than inventing details.",
+  "promptHash": "f7db0b126092a82690471c6492cb2f2bef3cd303f8822ce1197f730bfffef375"
+}

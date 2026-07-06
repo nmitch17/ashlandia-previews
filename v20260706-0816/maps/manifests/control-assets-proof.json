@@ -1,0 +1,175 @@
+{
+  "generatedAt": "2026-07-06T10:07:08.663Z",
+  "contractId": "ashland-citywide-visitor-map",
+  "sizeKey": "proof",
+  "canvas": {
+    "width": 1920,
+    "height": 1407
+  },
+  "bounds": {
+    "wgs84": {
+      "west": -122.73750131224968,
+      "south": 42.16658258558798,
+      "east": -122.64718533324574,
+      "north": 42.218552687589096
+    },
+    "epsg2270": {
+      "xmin": 4314698.7764,
+      "ymin": 190299.2584,
+      "xmax": 4339662.6207,
+      "ymax": 208592.0765
+    }
+  },
+  "sourceHashes": {
+    "streets": "59c2832205e29db43220b39b6922a3736a2445f258a8650a5fc982e93a93a30d",
+    "parks": "bcb85ef5dba25ed85b77fa937545fb30b6bbffaf3bf6d97de2e90ceae5a5e4e7",
+    "trails": "2fcffa5d0f7a513234486349935223ab0470ca103c696ca670801af57ea2f5bb",
+    "osm_paths": "b73c3548935ee9f74836d8d6167c55fde7f76c0a941b92eaf99146eb7aa7c00a",
+    "rail": "5eed5427191d8ef1b471c9a0831893ac6093ab9b5d3629c6651c72a8ca72afc9",
+    "historic_national": "df370392f11d82c2ce5f233a1fd12dd53fda6f966fa225a10c80d10a87ebd1ea",
+    "historic_local": "d1850fe2048eccf348cf6703f4070c8a60424cd0b80c0b19aaf2110cb7f41dd1",
+    "visitorPois": "a2982bbf959047dabe7aedf05cafd6ba0e9a1d7e3ee18ef8a75ca649b36a36fc",
+    "realWorldLandmarks": "10427fd453e8422bd65370ba5b567b48d67012fd1acad23a271decd2852305c7",
+    "cartographyAuthoring": "02761b2f423b1e5476039ac06fd9b57bbc25155950075f5d33f9fa4aebba0a5b",
+    "landmarkAuthoring": "ceaf5a7fdcdc654d43e180e9d76ef379efdd7b0dd0ef5a4e90db29d1c25f724a",
+    "railAuthoring": "735f7fe7dbb043ffc6dc18445496496d55695cbe05687e4d800926943d9f27d1",
+    "waterwaysAuthoring": "a8fffc3e4045a2d01c0e299bbf6bc8920c507c3ee8b8bc70afa4cfed002b3f1c"
+  },
+  "assets": [
+    {
+      "id": "base-control",
+      "svg": "/maps/control/base-control.svg",
+      "png": "/maps/control/base-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "#f5f1e7",
+      "hash": "a2b53885028a1993ac54d4eb70c23670ece780dfea697d8a5debd0f770104bdf"
+    },
+    {
+      "id": "base-v2-control",
+      "svg": "/maps/control/base-v2-control.svg",
+      "png": "/maps/control/base-v2-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "#f5f1e7",
+      "hash": "179f113b529b1c10042fae1b420e1d24845936c0e83e52b2540962f9c410661d"
+    },
+    {
+      "id": "roads-control",
+      "svg": "/maps/control/roads-control.svg",
+      "png": "/maps/control/roads-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "90b8d45bf03872e832525beb54e530ea25a4cce2ddda411bde03e1281102045c"
+    },
+    {
+      "id": "parks-trails-control",
+      "svg": "/maps/control/parks-trails-control.svg",
+      "png": "/maps/control/parks-trails-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "8443d57bce9fc5730819e5f56152f84ae9b4cbfd67a823e070aaa29e7e6296f9"
+    },
+    {
+      "id": "base-geometry-debug",
+      "svg": "/maps/control/base-geometry-debug.svg",
+      "png": "/maps/control/base-geometry-debug.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "#f5f1e7",
+      "hash": "ace6a0ddc0b5ab11fc71c7fae97cf06c34fbf4d5541e6e2a078bca4622aebc72"
+    },
+    {
+      "id": "label-anchors-debug",
+      "svg": "/maps/control/label-anchors-debug.svg",
+      "png": "/maps/control/label-anchors-debug.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "#f5f1e7",
+      "hash": "9a47df0acbb6c5750347a115c08ababd1276090e7fd82115af99bdef64a78b3d"
+    },
+    {
+      "id": "landmark-anchors-debug",
+      "svg": "/maps/control/landmark-anchors-debug.svg",
+      "png": "/maps/control/landmark-anchors-debug.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "#f5f1e7",
+      "hash": "bb4a44a50c9c2cca5d1da644171c490aaaaf365cdca9ee16418a79f5ab1843d2"
+    },
+    {
+      "id": "rail-trail-debug",
+      "svg": "/maps/control/rail-trail-debug.svg",
+      "png": "/maps/control/rail-trail-debug.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "#f5f1e7",
+      "hash": "a2e08896c172a6bd6895623e1007a583adc9477a233582a6fa47a1a7a75f3b7d"
+    },
+    {
+      "id": "paths-compare-debug",
+      "svg": "/maps/control/paths-compare-debug.svg",
+      "png": "/maps/control/paths-compare-debug.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "#f5f1e7",
+      "hash": "b7a98aea6c8e328c18b164bfaf5a65b415f1086fda7522c5e9ed7c7ecaa0d200"
+    },
+    {
+      "id": "sidewalk-detail",
+      "svg": "/maps/control/sidewalk-detail.svg",
+      "png": "/maps/control/sidewalk-detail.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "fa1cd9b25aa8689fcb3e2d5aaa83640612e5406410ab4f2d1bb38c38e456bfc0"
+    },
+    {
+      "id": "history-mask",
+      "svg": "/maps/control/history-mask.svg",
+      "png": "/maps/control/history-mask.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "96e3a13afa665a9dee32364f73df5c9da9afc12ee9ad5774a39d281a050ffefb"
+    },
+    {
+      "id": "kids-family-mask",
+      "svg": "/maps/control/kids-family-mask.svg",
+      "png": "/maps/control/kids-family-mask.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "93b0d828fffccea4901e60a3f57df2d7474d113e328fd3aeac6619e00c9beaec"
+    },
+    {
+      "id": "outdoor-recreation-mask",
+      "svg": "/maps/control/outdoor-recreation-mask.svg",
+      "png": "/maps/control/outdoor-recreation-mask.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "21e40bfe3b511a997b7dde75a02b0b6f48da2c5a930f0ec2e8216c6de958c6ee"
+    },
+    {
+      "id": "theaters-mask",
+      "svg": "/maps/control/theaters-mask.svg",
+      "png": "/maps/control/theaters-mask.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "f896aca19841d2b52f43a752e41ab92659bde7f8259e5cdd0b5d6a42b2b6abfc"
+    },
+    {
+      "id": "real-world-anchors-control",
+      "svg": "/maps/control/real-world-anchors-control.svg",
+      "png": "/maps/control/real-world-anchors-control.png",
+      "width": 1920,
+      "height": 1407,
+      "background": "transparent",
+      "hash": "115b022656cdb5b592eff6e8ec3abb8e32d127fe59c7c37cf4fe921cc768f5be"
+    }
+  ]
+}
